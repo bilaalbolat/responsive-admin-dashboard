@@ -86,17 +86,30 @@
                             <h1>$26,080</h1>
                         </div>
                         <div class="progress">
-                            <svg>
-                                <circle cx="38" cy="38" r="36"></circle>
+                    
+                            <svg class="progress-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="92px" height="92px">
+                                <defs>
+                                    <linearGradient id="GradientColor-Sales">
+                                        <stop offset="0%" stop-color="#7380ec"/>
+                                        <stop offset="100%" stop-color="#b9bef0"/>
+                                    </linearGradient>
+                                </defs>
+                                
+                                <circle class="circle-sales" cx="46" cy="46" r="41" stroke-linecap="round"/>
                             </svg>
-                            <div class="number">
-                                <p>80%</p>
+
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="numbersales">65%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <small class="text-muted">Last 24 Hours</small>
                 </div>
+           
                 <!---------------------END OF SALES---------------------->
+
                 <div class="expenses">
                     <span class="material-symbols-sharp">bar_chart</span>
                     <div class="middle">
@@ -105,11 +118,22 @@
                             <h1>$14,020</h1>
                         </div>
                         <div class="progress">
-                            <svg>
-                                <circle cx="38" cy="38" r="36"></circle>
+                    
+                            <svg class="progress-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="92px" height="92px">
+                                <defs>
+                                    <linearGradient id="GradientColor-Expenses">
+                                        <stop offset="0%" stop-color="#ff7782"/>
+                                        <stop offset="100%" stop-color="#f2bdc1"/>
+                                    </linearGradient>
+                                </defs>
+                                
+                                <circle class="circle-expenses" cx="46" cy="46" r="41" stroke-linecap="round"/>
                             </svg>
-                            <div class="number">
-                                <p>41%</p>
+
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="numberexpenses">72%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -124,11 +148,22 @@
                             <h1>$21,650</h1>
                         </div>
                         <div class="progress">
-                            <svg>
-                                <circle cx="38" cy="38" r="36"></circle>
+                    
+                            <svg class="progress-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="92px" height="92px">
+                                <defs>
+                                    <linearGradient id="GradientColor-Income">
+                                        <stop offset="0%" stop-color="#41f1b6"/>
+                                        <stop offset="100%" stop-color="#b6f0dc"/>
+                                    </linearGradient>
+                                </defs>
+                                
+                                <circle class="circle-income" cx="46" cy="46" r="41" stroke-linecap="round"/>
                             </svg>
-                            <div class="number">
-                                <p>63%</p>
+
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="numberincome">85%</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -136,8 +171,14 @@
                 </div>
                 <!---------------------END OF INCOME---------------------->
             </div>
+            <!---------------------------------- END OF INSIGHTS ------------------------------->
+
+            
+
         </main>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
